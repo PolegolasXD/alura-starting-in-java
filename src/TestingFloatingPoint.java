@@ -2,8 +2,8 @@ public class TestingFloatingPoint {
 
     public static void main(String[] args) {
 
-        double salary = 1250.70;
-        System.out.println("My salary is " + salary);
+        double wage = 1250.70;
+        System.out.println("My wage is " + wage);
 
         double age = 37;
 
