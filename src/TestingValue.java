@@ -1,0 +1,14 @@
+public class TestingValue {
+
+    public static void main(String[] args) {
+        int firstNumber = 5;
+        int secondNumber= 7;
+        secondNumber = firstNumber;
+        firstNumber = 10;
+
+        System.out.println(secondNumber);
+        System.out.println(firstNumber);
+    }
+
+
+}
