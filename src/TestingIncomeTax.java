@@ -3,7 +3,9 @@
 //          He looked at the IRPF table and implemented the rules for 15% and 22.5%:
 
 
-public class TingIR {
+public class TestingIncomeTax {
+
+
 
     public static void main(String[] args) {
 
@@ -16,6 +18,8 @@ public class TingIR {
         if (wage < 3750.0) {
             System.out.println("Your rate is 22.5%");
             System.out.println("You can deduct up to R$636");
+
         }
+
     }
 }

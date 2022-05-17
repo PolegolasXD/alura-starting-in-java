@@ -11,10 +11,10 @@ public class testingConditional {
             System.out.println("Welcome");
 
         } else if (quantityPeople >= 2) {
-
-            System.out.println("unfortunately you can't enter");
-        } else {
             System.out.println("You are not 18, but you can enter, as you are accompanied");
+        } else {
+            System.out.println("unfortunately you can't enter");
+
         }
     }
 }
